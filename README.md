@@ -11,8 +11,14 @@ yarn install
 # or
 bun install
 ```
-
 Second:
+Go to  src/app/components/OpenWeather.tsx and assign the provided api key to the "apiKey" variable.
+
+```bash
+    const apiKey: string = '...'
+```
+
+Third:
 
 ```bash
 npm run dev
